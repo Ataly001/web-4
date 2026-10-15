@@ -23,14 +23,14 @@
     <h1>Task3 - Bootstrap validation</h1>
     <form class="row g-3 was-validated">
         <div class="col-12">
-            <label for="Name" class="form-label">Name:</label>
-            <input type="text" id="name" name="name"
-                   class="form-control" required-minlength="2">
+           <label for="name" class="form-label">Name:</label>
+           <input type="text" id="name" name="name"
+                  class="form-control" required minlength="2">
             <div class="valid-feedback">Looks good!</div>
-            <div class="invalid-feedback">Enter at least 2 characters.</div>       
+            <div class="invalid-feedback">Enter at least 2 characters.</div>
         </div>
 
-         <div class="col-12">
+        <div class="col-12">
             <label for="email" class="form-label">Email</label>
             <input type="email" id="email" name="email"
                    class="form-control" required>
